@@ -371,7 +371,7 @@
       const totalMinutes = Math.floor(diffMs / 60000);
       const hours = Math.floor(totalMinutes / 60);
       const minutes = totalMinutes % 60;
-      footerCountdown.textContent = `Faltan ${pad2(hours)}:${pad2(minutes)} para el viernes 15:20`;
+      footerCountdown.textContent = `-Ya sólo quedan ${pad2(hours)}:${pad2(minutes)} para el finde-`;
     }
 
     updateFooterStatus();
