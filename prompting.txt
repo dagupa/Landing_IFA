@@ -17,3 +17,7 @@ Solución: Se añadió una nueva tarjeta dentro de la categoría "Otros recursos
 Prompt: Estoy viendo que si uso en navegador en el PC los logos cargan perfectamente, pero si lo hago en un Smartphone, sólo cargan los logos de Zeco Vision, PCM Workflow y de Visual Presencia. El resto no los carga.
 Solución: Se normalizaron los nombres de archivos de iconos en la carpeta Logos a minúsculas (bomex.png, icgvision.png, zecovision.png, sharepoint.png, fichajes.png) y se actualizaron las rutas src en IFA_Landing.html para que coincidan exactamente. Esto evita fallos por sensibilidad a mayúsculas/minúsculas en servidores y navegadores móviles.
 
+[2026-07-22 10:11:32]
+Prompt: crea una tarjeta nueva que abra un archivo excel guardado en la siguiente ruta: T:\Produccion\DOI\PRODUCCION\Segmento PROTOTIPOS\IFA\Aplicaciones\Workplace IFA\Workplace IFA.xlsm. El logo se llama workplaceifa.png
+Solución: Se añadió una nueva tarjeta en la categoría "Otros recursos" de IFA_Landing.html con data-href al archivo local file:///T:/Produccion/DOI/PRODUCCION/Segmento%20PROTOTIPOS/IFA/Aplicaciones/Workplace%20IFA/Workplace%20IFA.xlsm, usando el icono ./Logos/workplaceifa.png, título "Workplace IFA" y CTA de apertura.
+
