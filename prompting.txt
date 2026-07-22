@@ -9,3 +9,7 @@ Solución: Se reorganizó la sección de tarjetas en dos bloques dentro de grid-
 Prompt: Deja un poco más de separación entre las categorías y elimina la raya vertical que sale al principio del texto que identifica cada categoría.
 Solución: Se ajustó el CSS de section-label para quitar border-left y padding-left, eliminando la raya vertical. Además, se añadió espacio adicional entre bloques de categorías con la regla .cards-grid + .section-label { margin-top: 3rem; }.
 
+[2026-07-22 09:24:29]
+Prompt: añade otra tarjeta que apunte a esta dirección: Knorr (https://knorr-bremseespana.vpcloud.es/). Su icono está dentro de la carpeta logos y se llama fichajes.png. Ponlo dentro de la categoría "Otros recursos".
+Solución: Se añadió una nueva tarjeta dentro de la categoría "Otros recursos" con data-href a https://knorr-bremseespana.vpcloud.es/, icono local ./Logos/Fichajes.png, título "Knorr" y descripción de acceso al portal de fichajes.
+
