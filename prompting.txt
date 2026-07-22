@@ -1,3 +1,11 @@
 2026-07-13 00:00
 Prompt: Summarize the attached history item
 Solucion: El commit 7d8d298 corresponde a la version inicial del proyecto. Crea IFA_Landing.html con una landing estatica para IFA que incluye cabecera con accesos externos, hero principal, tres tarjetas enlazadas a dashboards locales, estilos completos para tema claro/oscuro y logica JavaScript para cambio de tema, pantalla completa, contador hasta el viernes y apertura de tarjetas por clic o teclado.
+[2026-07-22 08:06:25]
+Prompt: Implementa el punto 10. Las 3 primeras pertenecen a la categoría de "Dashboards interactivos" y las dos últimas a "Otros recursos".
+Solución: Se reorganizó la sección de tarjetas en dos bloques dentro de grid-section: primer bloque con título "Dashboards interactivos" (BOMex, ICG Vision, Zeco Vision) y segundo bloque con título "Otros recursos" (PCM Workflow, IFA Sharepoint), manteniendo la misma estética y navegación por data-href.
+
+[2026-07-22 08:08:19]
+Prompt: Deja un poco más de separación entre las categorías y elimina la raya vertical que sale al principio del texto que identifica cada categoría.
+Solución: Se ajustó el CSS de section-label para quitar border-left y padding-left, eliminando la raya vertical. Además, se añadió espacio adicional entre bloques de categorías con la regla .cards-grid + .section-label { margin-top: 3rem; }.
+
