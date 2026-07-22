@@ -21,3 +21,11 @@ Solución: Se normalizaron los nombres de archivos de iconos en la carpeta Logos
 Prompt: crea una tarjeta nueva que abra un archivo excel guardado en la siguiente ruta: T:\Produccion\DOI\PRODUCCION\Segmento PROTOTIPOS\IFA\Aplicaciones\Workplace IFA\Workplace IFA.xlsm. El logo se llama workplaceifa.png
 Solución: Se añadió una nueva tarjeta en la categoría "Otros recursos" de IFA_Landing.html con data-href al archivo local file:///T:/Produccion/DOI/PRODUCCION/Segmento%20PROTOTIPOS/IFA/Aplicaciones/Workplace%20IFA/Workplace%20IFA.xlsm, usando el icono ./Logos/workplaceifa.png, título "Workplace IFA" y CTA de apertura.
 
+[2026-07-22 14:51:43]
+Prompt: Crea una tarjeta nueva llamada "Agente Wiki" El icono se llama agentewiki.png Coloca esta tarjeta la primera del grupo Otros recursos
+Solución: Se añadió la tarjeta "Agente Wiki" como primer elemento del bloque "Otros recursos" en IFA_Landing.html, usando el icono local ./Logos/agentewiki.png. No se configuró enlace de apertura porque no se especificó URL o ruta de destino.
+
+[2026-07-22 14:55:13]
+Prompt: el enlace es: https://m365.cloud.microsoft/chat/?titleId=T_efa3eea4-be20-c782-9fae-30e86df75858&source=embedded-builder
+Solución: Se configuró el data-href de la tarjeta "Agente Wiki" con el enlace proporcionado y se actualizó su CTA de "Próximamente" a "Abrir" para reflejar que el recurso ya está disponible.
+
