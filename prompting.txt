@@ -13,3 +13,7 @@ Solución: Se ajustó el CSS de section-label para quitar border-left y padding-
 Prompt: añade otra tarjeta que apunte a esta dirección: Knorr (https://knorr-bremseespana.vpcloud.es/). Su icono está dentro de la carpeta logos y se llama fichajes.png. Ponlo dentro de la categoría "Otros recursos".
 Solución: Se añadió una nueva tarjeta dentro de la categoría "Otros recursos" con data-href a https://knorr-bremseespana.vpcloud.es/, icono local ./Logos/Fichajes.png, título "Knorr" y descripción de acceso al portal de fichajes.
 
+[2026-07-22 09:50:24]
+Prompt: Estoy viendo que si uso en navegador en el PC los logos cargan perfectamente, pero si lo hago en un Smartphone, sólo cargan los logos de Zeco Vision, PCM Workflow y de Visual Presencia. El resto no los carga.
+Solución: Se normalizaron los nombres de archivos de iconos en la carpeta Logos a minúsculas (bomex.png, icgvision.png, zecovision.png, sharepoint.png, fichajes.png) y se actualizaron las rutas src en IFA_Landing.html para que coincidan exactamente. Esto evita fallos por sensibilidad a mayúsculas/minúsculas en servidores y navegadores móviles.
+
