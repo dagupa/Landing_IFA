@@ -29,3 +29,11 @@ Solución: Se añadió la tarjeta "Agente Wiki" como primer elemento del bloque 
 Prompt: el enlace es: https://m365.cloud.microsoft/chat/?titleId=T_efa3eea4-be20-c782-9fae-30e86df75858&source=embedded-builder
 Solución: Se configuró el data-href de la tarjeta "Agente Wiki" con el enlace proporcionado y se actualizó su CTA de "Próximamente" a "Abrir" para reflejar que el recurso ya está disponible.
 
+[2026-07-23 07:42:10]
+Prompt: la parte que señalo en el recuadro rojo queda muy libre. Quiero que subas todo un poco para que se aproveche ese hueco.
+Solución: Se redujo el espacio vertical superior de la portada ajustando el padding del bloque hero (escritorio y móvil) y el padding superior de grid-section para subir el título y las tarjetas sin alterar la estructura ni el comportamiento de la página.
+
+[2026-07-23 07:53:05]
+Prompt: súbelo más. Quiero que llegue justo al límite con el encabezado
+Solución: Se comprimió al mínimo el espacio superior del hero para que el contenido comience prácticamente al borde inferior del encabezado. También se redujo un poco más el padding superior de grid-section y el ajuste móvil correspondiente para conservar la proporción en pantallas pequeñas.
+
