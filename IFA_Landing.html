@@ -91,7 +91,7 @@
     .theme-btn:hover,
     .fullscreen-btn:hover { background: var(--bg-card-hover); border-color: var(--border-hover); color: var(--text-primary); transform: scale(1.06); }
     /* HERO */
-    .hero { position: relative; padding: 0.75rem 2rem 2.6rem; text-align: center; overflow: hidden; }
+    .hero { position: relative; padding: 0.75rem 2rem 1.3rem; text-align: center; overflow: hidden; }
     .hero::before {
       content: ''; position: absolute; top: -80px; left: 50%; transform: translateX(-50%);
       width: 700px; height: 400px;
@@ -104,15 +104,11 @@
       color: var(--accent); background: var(--badge-bg); border: 1px solid var(--border);
       border-radius: 999px; padding: 0.3rem 0.85rem; margin-bottom: 1.5rem;
     }
-    .hero h1 {
-      font-family: 'DM Sans', 'Segoe UI', system-ui, -apple-system, sans-serif;
-      font-size: clamp(2rem, 5vw, 3.4rem); font-weight: 700;
-      line-height: 1.12; letter-spacing: -0.02em;
-      max-width: 640px; margin: 0 auto 1rem;
-    }
-    .hero h1 span { color: var(--accent); }
-    .hero-sub { font-size: 1rem; color: var(--text-secondary); max-width: 480px; margin: 0 auto 0.5rem; line-height: 1.65; }
-    .hero-meta { font-size: 0.78rem; color: var(--text-label); margin-top: 0.5rem; letter-spacing: 0.03em; }
+    .hero-logo { display: none; max-height: clamp(80px, 12vw, 140px); width: auto; margin: 0.2rem auto -0.8rem; }
+    [data-theme="dark"]  .hero-logo-dark  { display: block; }
+    [data-theme="light"] .hero-logo-light { display: block; }
+    .hero-sub { font-size: 1rem; color: var(--text-secondary); max-width: 480px; margin: 0 auto 0.2rem; line-height: 1.65; }
+    .hero-meta { font-size: 0.78rem; color: var(--text-label); margin-top: 0.2rem; letter-spacing: 0.03em; }
     /* GRID */
     .grid-section { max-width: 1100px; margin: 0 auto; padding: 0.3rem 2rem 6rem; }
     .section-label {
@@ -185,7 +181,7 @@
     @media (max-width: 600px) {
       header { padding: 0 1rem; }
       .sap-link { width: 84px; }
-      .hero { padding: 0.6rem 1.25rem 2rem; }
+      .hero { padding: 0.6rem 1.25rem 1rem; }
       .grid-section { padding: 1rem 1.25rem 4rem; }
       .cards-grid { grid-template-columns: 1fr; }
       footer {
@@ -221,9 +217,9 @@
   </header>
 
   <section class="hero">
-       
-    <h1>Portal de aplicaciones <span>IFA</span></h1>
-    <p class="hero-sub">Suite de herramientas de Ingeniería de Fabricación.</p>
+    <p class="hero-sub"> Suite de herramientas de Ingeniería de Fabricación</p>
+    <img class="hero-logo hero-logo-dark"  src="./Logos/ifa-oscuro.png" alt="IFA" />
+    <img class="hero-logo hero-logo-light" src="./Logos/ifa-claro.png"  alt="IFA" />
     <p class="hero-meta">Merak · Getafe</p>
   </section>
 
