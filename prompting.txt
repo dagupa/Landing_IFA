@@ -37,3 +37,15 @@ Solución: Se redujo el espacio vertical superior de la portada ajustando el pad
 Prompt: súbelo más. Quiero que llegue justo al límite con el encabezado
 Solución: Se comprimió al mínimo el espacio superior del hero para que el contenido comience prácticamente al borde inferior del encabezado. También se redujo un poco más el padding superior de grid-section y el ajuste móvil correspondiente para conservar la proporción en pantallas pequeñas.
 
+[2026-09-16 00:00:00]
+Prompt: Sustituye la imagen que aparece en la parte superior izquierda "MERAK" por la imagen de la caperta Logos que se llama Logo-merak.jpg
+Solución: Se actualizó el src del logo Merak en el header-left (esquina superior izquierda) de IFA_Landing.html, sustituyendo ./Logos/merak.svg por ./Logos/Logo-merak.jpg.
+
+[2026-09-16 00:00:00]
+Prompt: revísalo porque no es correcto el cambio. En la parte superior izquierda tiene que aparecer la imagen "Logo-merak.jpg" que está dentro de la carpeta "Logos". Lo que has puesto es un enlace a la página web y no tiene que tener ningún enlace.
+Solución: Se eliminó el enlace a https://www.merak-hvac.com/en/ del logo superior izquierdo y se dejó la imagen local ./Logos/Logo-merak.jpg sin ningún enlace.
+
+[2026-09-16 00:00:00]
+Prompt: Como puedes comprobar, no aparece la imagen. Lo que aparece es un rectángulo blanco
+Solución: Se corrigió el filtro aplicado por el tema oscuro, que convertía la imagen JPG completa en un rectángulo blanco. El logo ./Logos/Logo-merak.jpg mantiene ahora sus colores originales mediante la clase logo-merak.
+
