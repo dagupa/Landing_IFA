@@ -49,3 +49,15 @@ Solución: Se eliminó el enlace a https://www.merak-hvac.com/en/ del logo super
 Prompt: Como puedes comprobar, no aparece la imagen. Lo que aparece es un rectángulo blanco
 Solución: Se corrigió el filtro aplicado por el tema oscuro, que convertía la imagen JPG completa en un rectángulo blanco. El logo ./Logos/Logo-merak.jpg mantiene ahora sus colores originales mediante la clase logo-merak.
 
+[2026-09-18 00:00:00]
+Prompt: He cambiado manualmente en la línea 202 la extensión del logo superior izquierdo de .jpg a .png, pero la imagen no se muestra correctamente. Revisar si falta algo más.
+Solución: Se verificó que IFA_Landing.html referencia ./Logos/Logo-merak.png, que el archivo existe y que el navegador lo carga correctamente. El PNG se renderiza completo, visible y sin deformación aproximadamente a 131 x 32 px. No es necesario realizar cambios adicionales en el HTML o CSS.
+
+[2026-09-18 00:00:00]
+Prompt: En el pie de página también quiero sustituir el logo actual por Logo-merak.png y eliminar el texto Knorr-Bremse España, S.A.U.
+Solución: Se sustituyó el logo del footer por ./Logos/Logo-merak.png, se eliminó el texto de la empresa y se mantuvo el logo sin filtros ni pérdida de opacidad en el tema oscuro.
+
+[2026-09-18 00:00:00]
+Prompt: El logo del pie tiene que ser exactamente el mismo que el del encabezado, con sus tonos azules.
+Solución: Se eliminó la excepción del tema oscuro que invertía los colores del logo del footer. Ahora el logo del pie usa el mismo PNG, sin filtro y con opacidad completa, igual que el del encabezado.
+
